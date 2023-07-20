@@ -9,7 +9,7 @@ export default function Selector({updateParentVariable,childFunction}){
     <div className={Div1Class}>
     <div className="col-lg-12 ">
       <select
-        className="btn btn-outline-info dropdown-toggle mb-3 m-2 "
+        className="btn btn-outline-warning dropdown-toggle mb-3 m-2 "
         id="mySelect"
             onChange={  (e)  => {
                 e.preventDefault();
@@ -26,7 +26,7 @@ export default function Selector({updateParentVariable,childFunction}){
       {/* <button onClick={loadBody} type="reload" className={btnClass}>
         Refresh
       </button> */}
-      <button className="btn btn-warning"onClick={childFunction} type="reset">Apply Filter</button>
+      <button className="btn btn-outline-warning mb-3 m-2 "onClick={childFunction} type="reset">Apply Filter</button>
     </div>
     </div>
 );
