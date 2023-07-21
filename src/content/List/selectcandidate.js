@@ -121,7 +121,7 @@ export default function SelectCandidate() {
 var currName=[]
 var currID=[]
 var finalRows;
-  var bodyTable1 = bodyTable.map((res) => {
+var bodyTable1 = bodyTable.map((res) => {
 
    
     return (
